@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор стажу</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор стажу</h1>
+
+        <div id="employees">
+            <div class="employee">
+                <label for="name1">Співробітник  1</label>
+                <input type="text" id="name1" placeholder="Прізвище">
+                <label for="date1">Дата прийому на роботу</label>
+                <input type="date" id="date1">
+            </div>
+
+            <div class="employee">
+                <label for="name2">Співробітник 2</label>
+                <input type="text" id="name2" placeholder="Прізвище">
+                <label for="date2">Дата прийому на роботу</label>
+                <input type="date" id="date2">
+            </div>
+
+            <div class="employee">
+                <label for="name3">Співробітник  3</label>
+                <input type="text" id="name3" placeholder="Прізвище">
+                <label for="date3">Дата прийому на роботу</label>
+                <input type="date" id="date3">
+            </div>
+
+            <div class="employee">
+                <label for="name4">Співробітник  4</label>
+                <input type="text" id="name4" placeholder="Прізвище">
+                <label for="date4">Дата прийому на роботу</label>
+                <input type="date" id="date4">
+            </div>
+
+            <div class="employee">
+                <label for="name5">Співробітник  5</label>
+                <input type="text" id="name5" placeholder="Прізвище">
+                <label for="date5">Дата прийому на роботу</label>
+                <input type="date" id="date5">
+            </div>
+        </div>
+
+        <button onclick="calculateAverageExperience()">Розрахувати стаж</button>
+
+        <div id="result"></div>
+    </div>
+
+</body>
+</html>
